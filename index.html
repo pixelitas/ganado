@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganadería El Porvenir - Ganado de Calidad</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Botón volver arriba -->
+    <button id="scrollToTop">↑</button>
+    
+    <!-- Cabecera -->
+    <header>
+        <h1>Ganadería El Porvenir</h1>
+    </header>
+    
+    <!-- Navegación -->
+    <nav id="mainNav">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Ganado</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <h2>Ganado de Alta Calidad</h2>
+        <p>Especialistas en cría y comercialización de ganado bovino de las mejores razas. Más de 30 años de experiencia en el sector ganadero.</p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+    </section>
+    
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="features">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <img src="images/Calidad Genética.jpg" alt="Calidad Genética">
+                <h3>Calidad Genética</h3>
+                <p>Trabajamos con las mejores líneas genéticas para garantizar animales de alto rendimiento y excelente conformación.</p>
+            </div>
+            <div class="feature">
+                <img src="images/Bienestar Animal.png" alt="Bienestar Animal">
+                <h3>Bienestar Animal</h3>
+                <p>Nuestros animales son criados en condiciones óptimas, con alimentación balanceada y cuidados veterinarios constantes.</p>
+            </div>
+            <div class="feature">
+                <img src="images/Asesoramiento Completo.jpeg" alt="Asesoramiento">
+                <h3>Asesoramiento Completo</h3>
+                <p>Ofrecemos asesoramiento técnico para ayudarte a seleccionar los mejores ejemplares según tus necesidades.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Productos/Ganado -->
+    <section id="productos" class="products">
+        <h2>Nuestro Ganado</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="images/Angus.jpg" alt="Ganado Angus">
+                <div class="product-info">
+                    <h3>Angus</h3>
+                    <p>Ejemplares de raza Angus con excelente conformación y rendimiento cárnico.</p>
+                    <span class="price">Desde $2,500 USD</span>
+                    <a href="#contacto" class="btn">Consultar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Brahman.jpg" alt="Ganado Brahman">
+                <div class="product-info">
+                    <h3>Brahman</h3>
+                    <p>Ganado Brahman de alta resistencia, adaptabilidad y excelente producción.</p>
+                    <span class="price">Desde $2,800 USD</span>
+                    <a href="#contacto" class="btn">Consultar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Holstein.jpg" alt="Ganado Holstein">
+                <div class="product-info">
+                    <h3>Holstein</h3>
+                    <p>Vacas lecheras Holstein con alta producción láctea y genética superior.</p>
+                    <span class="price">Desde $3,200 USD</span>
+                    <a href="#contacto" class="btn">Consultar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/Hereford.jpg" alt="Ganado Hereford">
+                <div class="product-info">
+                    <h3>Hereford</h3>
+                    <p>Raza Hereford con excelente conversión alimenticia y calidad de carne.</p>
+                    <span class="price">Desde $2,700 USD</span>
+                    <a href="#contacto" class="btn">Consultar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Galería -->
+    <section id="galeria" class="gallery">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/Ganado en pastura.jpg" alt="Ganado en pastura">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Ganado en corral.jpg" alt="Ganado en corral">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Vacas lecheras.jpg" alt="Vacas lecheras">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Toro reproductor.jpeg" alt="Toro reproductor">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Instalaciones.jpg" alt="Instalaciones">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Terneros.png" alt="Terneros">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal para galería -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImg" src="" alt="Imagen ampliada">
+        </div>
+    </div>
+    
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><i>📍</i> Carretera Nacional Km 45, El Porvenir</p>
+                <p><i>📱</i> +52 123 456 7890</p>
+                <p><i>📧</i> info@ganaderiaelporvenir.com</p>
+                <p><i>🕒</i> Lunes a Sábado: 8:00 AM - 6:00 PM</p>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><span>Facebook</span></a>
+            <a href="#"><span>Instagram</span></a>
+            <a href="#"><span>Twitter</span></a>
+            <a href="#"><span>YouTube</span></a>
+        </div>
+        <p>&copy; 2025 Ganadería El Porvenir. Todos los derechos reservados.</p>
+    </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>
